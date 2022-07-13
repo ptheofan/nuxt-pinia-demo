@@ -29,6 +29,7 @@
             color="primary"
             nuxt
             to="/questionnaire"
+            id="start-button"
           >
             Take the quiz
           </v-btn>

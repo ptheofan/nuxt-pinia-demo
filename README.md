@@ -15,5 +15,8 @@ $ yarn start
 
 # generate static project
 $ yarn generate
+
+# End 2 End Testing (cypress)
+yarn e2e
 ```
 Build with Nuxt and Pinia
