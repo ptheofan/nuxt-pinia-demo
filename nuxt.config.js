@@ -25,7 +25,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/veevalidate'
+    '~/plugins/veevalidate',
+    '~/plugins/pinia'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -68,7 +69,9 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [
-      'vee-validate'
+      'vee-validate',
+      '@sindresorhus/safe-stringify',
+      'pinia-shared-state',
     ]
   }
 }
